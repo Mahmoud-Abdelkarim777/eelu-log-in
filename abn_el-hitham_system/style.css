@@ -1,0 +1,120 @@
+.box{
+    margin: 50px auto;
+    border-radius: 15px;
+    width: 500px;
+    height:465px;
+    position: relative;
+    top: 72px;
+    box-shadow: 0 30px 60px 0 rgb(0 0 0 /30%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box .eelu{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(118, 161, 173);
+}
+.box .content-form .form{
+    display: flex;
+    flex-direction: column;
+}
+.box .content-form .radio1{
+    display: flex;
+    flex-direction: row;
+}
+.box .inputs{
+    display: flex;
+    flex-direction: column;
+    margin: -80px 40px 0 40px;
+} 
+.box .content-form .text,.password{
+    text-align: center;
+    padding: 15px;
+    color: rgb(118, 161, 173);
+    background-color:#f6f6f6;
+    border: none;
+    border-radius: 5px;
+}
+.box .content-form .password{
+    margin-top: 5px;
+}
+.box .radio1{
+    
+  padding-left: calc(100%/4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px 0 5px 0;
+  color: cadetblue;
+}
+.box .content-form .form .radio1{
+    display: flex;
+    flex-direction: row;
+}
+.box .log-in{
+    border: none;
+    border-radius: 5px;
+    background-color:#56baed;
+    width: calc(100%/3);
+    height: 50px;
+    margin-left:calc(100%/3);
+    color: #f6f6f6;
+   
+} 
+.box .footer{
+    background-color:#f6f6f6;
+    text-align: center;
+    margin-top: -60px;
+}
+.box .footer .font{
+    color: #15dfd5;
+}
+@media  screen and (max-width: 600px) {
+    .box{
+        border-radius: 15px;
+        width: 80vw;
+        height:fit-content;
+        position: relative;
+        top: 72px;
+        box-shadow: 0 30px 60px 0 rgb(0 0 0 /30%);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: small;
+    }
+  }
+@media  screen and (max-width: 600px) {
+    .box .eelu{
+        text-align: center;
+        font-weight: bold;
+        font-size: small;
+        color: rgb(118, 161, 173);
+        margin-top: -40px;
+    }
+    .box .content-form .form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .box .content-form .form .inputs{
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        padding-top: 80px;
+    }
+    .box .content-form .text,.password{
+        text-align: center;
+        color: rgb(118, 161, 173);
+        border: none;
+        border-radius: 5px;
+    }
+    .box .content-form .form .radio1{
+        display: flex;
+        flex-direction: row;
+        color: cadetblue;
+        font-size: small;
+        padding-left:40px ;
+      }
+  }
